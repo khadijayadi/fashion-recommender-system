@@ -1,0 +1,32 @@
+# python 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#virtual environmenets 
+venv/
+.env
+
+# os 
+.DS_Store
+
+#jupyter
+.ipynb_checkpoints/
+
+
+.vscode/
+*.log
+
+# ignore content keep folder structure
+data/raw/*
+data/processed/*
+models/*
+results/*
+figures/*
+
+# keep folders structures 
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
